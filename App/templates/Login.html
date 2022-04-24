@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Alumni Gallery</title>
+    <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="cyan darken-4">
+      <div>
+        <a href="Index.html">
+          <h1 class="logo">
+            <span>Alimuni Gallery</span>
+          </h1>
+        </a>
+      </div>
+      <div class="search">
+        <label>
+          <input id="input" type="text" placeholder="Search">
+        </label>
+      </div>
+      <a href="Login.html"><button class="login">Log In</button></a>
+      <a href="Signup.html"><button class="signup">Sign up</button></a>
+    </nav>    
+  
+  </header>
+    
+    <main class="container">
+      <div class="row">
+        <div class="col s9 push-2">
+          <div class="card cyan darken-4">
+            
+              <div class="row">
+                  <form class="col s12 push-2 ">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="Uname" type="text" class="validate">
+                        <label class="active white-text" for="Uname">Username</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label class="active white-text" for="password">Password</label>
+                      </div>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" >Log In</button>
+                   <a href ="Signup.html"><button class="btn waves-effect waves-light" type="submit" >Sign Up</button></a>
+                  </form>
+                </div>
+          </div>
+        </div>
+      </div>
+    </main>
+        
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+          
+      <script>
+        $(document).ready(function() {
+          $('select').material_select();
+        });
+      </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    <script src="main.js"></script>
+  <title>Alumni Gallery</title>
+</head>
+
+<body>
+  <header>
+    <nav class="cyan darken-4">
+      <ul>
+        <div>
+            <il>
+               <a href="Index.html">
+                <h1 class="logo">
+                <span>Alimuni Gallery</span>
+                </h1>
+              </a>
+             </il>
+         </div>
+            <div class="search">
+              <il>
+                <label>
+                  <form>      
+                    <input id="input" type="text" placeholder="Search">
+                  </form>
+                </label>
+              </il>
+            </div>
+            <il>
+              <a href="Login.html"><button class="login">Log In</button></a>
+            </il>
+            <il>
+              <a href="Signup.html"><button class="signup">Sign up</button></a>
+            </il>
+        </ul>
+    </nav>    
+  
+  </header>
+    
+    <main class="container">
+      <div class="row1">
+        <div class="col s12 push-2 ">
+          <div class="card cyan darken-4">
+              <div class="row">
+                
+                <form class="col s12 push-2" >
+                  <input autocomplete="false" name="hidden" type="text" style="display:none;">
+                    <div class="row">
+                      <div class="input-field col s6" > 
+                        <input  id="first_name" type="text" class="validate">
+                        <label  class="active white-text" for="first_name">First Name</label>
+                      </div>
+
+                      <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label  class="active white-text" for="last_name">Last Name</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input id="graduation_year" type="text" class="validate">
+                        <label   class="active white-text" for="graduation_year">Graduation Year</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="programme" type="text" class="validate" value="Bsc Computer Scienece">
+                        <label  class="active white-text" for="programme">Programme</label>
+                      </div>
+                    </div>
+
+                    <div>
+                    </div>
+
+                    <div class="input-field col s6">
+                      <select id = "department" class="active white-text">
+                        <option disabled selected>Department</option>
+                        <option>Department of Chemical Engineering</option>
+                        <option>Department of Civil and Environmental Engineering</option>
+                        <option>Department of Electrical and Computer Engineering</option>
+                        <option>Department of Mechanical and Manufacturing Engineering</option>
+                        <option>Department of Geomatics Engineering and Land Management</option>
+                        <option>Department of Creative & Festival Arts</option>
+                        <option>Department of History</option>
+                        <option>Department of Literary, Cultural and Communication Studies</option> 
+                        <option>Department of Modern Languages and Linguistics</option> 
+                        <option>School of Education</option> 
+                        <option>School of Dentistry</option> 
+                        <option>School of Medicine</option> 
+                        <option>Optometry</option>  
+                        <option>School of Nursing</option> 
+                        <option>School of Pharmacy</option> 
+                        <option>School of Veterinary Medicine</option> 
+                        <option>Department of Agriculture, Economics and Extension</option>
+                        <option>Department of Food Production</option>
+                        <option> Department of Geography</option>
+                        <option>Department of Chemistry</option>
+                        <option>Department of Computing and Information Technology</option>
+                        <option>Department of Life Sciences</option>
+                        <option>Department of Mathematics and Statistics</option>
+                        <option>Department of Physics</option>
+                        <option>Department of Behavioural Sciences</option>
+                        <option>Department of Economics</option>
+                        <option> Department of Management Studies</option>
+                        <option>Department of Political Science</option>
+                        
+                      </select>
+                    </div>
+
+                    <div class="input-field col s6" >
+                      <select id="faculty" class="active white-text">
+                        <option value="" disabled selected>Faculty</option>
+                        <option>Engineering</option>
+                        <option>Food & A`griculture</option>
+                        <option>Humanities & Education</option>
+                        <option>Law</option>
+                        <option>Medical Sciences</option>
+                        <option>Science & Technology</option>
+                        <option>Social Sciences</option>
+                        <option>Sports</option>
+                      </select>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="job" type="text" class="validate">
+                        <label class="active white-text" for="job">Current Job</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="Uname" type="text" class="validate">
+                        <label class="active white-text" for="Uname">Username</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label class="active white-text" for="email">Email Address</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label class="active white-text" for="password">Password</label>
+                      </div>
+                    </div>
+
+                    <button class="btn waves-effect waves-light" type="submit" >Sign Up
+                      <i class="material-icons right">send</i>
+                    </button>
+                    
+                  </form>
+                </div>
+          </div>
+        </div>
+      </div>
+    </main>
+        
+  ````````
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+          
+      <script>
+        $(document).ready(function() {
+          $('select').material_select();
+        });
+      </script>
+</body>
+</html>
